@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorScreenBackground"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/button_save"
+        style="@style/button_style"
+        android:layout_width="104dp"
+        android:layout_marginLeft="200dp"
+        android:text="@string/button_save" />
+
+    <EditText
+        android:id="@+id/edit_word"
+        style="@style/text_view_style"
+        android:hint="@string/hint_word"
+        android:inputType="textAutoComplete" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="showDatePicker"
+        android:text="@string/date"/>
+
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:text="chose a date" />
+
+
+</LinearLayout>
